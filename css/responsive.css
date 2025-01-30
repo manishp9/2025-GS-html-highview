@@ -1,0 +1,1272 @@
+@media (min-width: 1400px) and (max-width: 1700px) {
+
+    .meet-team-banner .banner-img-inner,
+    .meet-team-banner .banner-img {
+        max-width: 265px;
+    }
+
+    .meet-team-banner h1 {
+        font-size: 35px;
+        line-height: 49px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .meet-team-banner .container {
+        padding: 0;
+    }
+
+    .meet-team-banner .banner-img {
+        position: absolute;
+        right: 0;
+    }
+
+    .meet-team-banner {
+        position: relative;
+    }
+
+    .meet-team-banner .banner-info {
+        max-width: 1062px;
+        width: 100% !important;
+    }
+
+    .corner-img-box {
+        justify-content: start;
+    }
+
+    .corner-inner {
+        padding: 0 85px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .container {
+        max-width: 1200px;
+    }
+
+    .protect-section .protect-img-data p:nth-child(1) {
+        top: 80px;
+        left: 83px;
+    }
+
+    .protect-section .protect-img-data p:nth-child(2) {
+        top: 214px;
+        left: 156px;
+    }
+
+    .protect-section .protect-img-data p:nth-child(3) {
+        top: 5px;
+        left: 387px;
+    }
+
+    .protect-section .protect-img-data p:nth-child(4) {
+        top: 155px;
+        right: 313px;
+    }
+
+    .protect-section .protect-img-data p:nth-child(5) {
+        top: 80px;
+        right: 116px;
+    }
+
+    .protect-section .protect-img-data p:nth-child(6) {
+        top: 213px;
+        right: 5px;
+    }
+
+    .swiper-button-next {
+        right: 33.3% !important;
+    }
+
+    .slider-section:before {
+        content: unset;
+    }
+
+    .slider-section .swiper-button-next {
+        right: 33.2% !important;
+    }
+
+    .why-inner {
+        padding: 0 120px;
+        gap: 27px;
+    }
+
+    .treating-section .treating-item {
+        max-width: 290px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 992px;
+    }
+
+    .trust-section .trust-box {
+        padding: 70px 50px;
+    }
+
+    .protect-section .protect-img-data p {
+        font-size: 14px;
+        padding: 10px 20px;
+        line-height: 11px;
+    }
+
+    .protect-section .protect-img-data p:nth-child(1) {
+        top: 63px;
+        left: 71px;
+    }
+
+    .protect-section .protect-img-data p:nth-child(2) {
+        top: 167px;
+        left: 127px;
+    }
+
+    .protect-section .protect-img-data p:nth-child(3) {
+        top: 7px;
+        left: 306px;
+    }
+
+    .protect-section .protect-img-data p:nth-child(4) {
+        top: 121px;
+        right: 247px;
+    }
+
+    .protect-section .protect-img-data p:nth-child(5) {
+        top: 64px;
+        right: 91px;
+    }
+
+    .protect-section .protect-img-data p:nth-child(6) {
+        top: 169px;
+        right: 5px;
+    }
+
+    .swiper-button-next {
+        right: 31.6% !important;
+    }
+
+    footer .footer-logo {
+        padding-right: 60px;
+    }
+
+    .slider-section .slider-items {
+        padding: 0 28px 0 35px;
+    }
+
+    .accidents-section .accidents-img img {
+        right: 0;
+    }
+
+    .slider-section .swiper-button-next {
+        right: 31.7% !important;
+    }
+
+    .leave-section .leave-info-inner p br {
+        display: none;
+    }
+
+    .leave-section .leave-info,
+    .leave-section .leave-img {
+        max-width: unset !important;
+    }
+
+    .leave-section .leave-box:nth-child(even) .leave-img {
+        padding-right: 40px;
+    }
+
+    .business-leave.leave-section .leave-box:nth-child(even) .leave-img {
+        padding-right: unset;
+    }
+
+    .leave-section .leave-box:nth-child(odd) .leave-img {
+        padding-left: 40px;
+    }
+
+    .business-leave.leave-section .leave-box:nth-child(even) .leave-img {
+        padding-left: 40px;
+    }
+
+    .why-section .why-items-box {
+        width: 46%;
+    }
+
+    .why-section .why-items-box p {
+        padding-left: 12px;
+        padding-top: 10px;
+    }
+
+    .why-section .why-data {
+        justify-content: space-between;
+    }
+
+    .why-section {
+        padding: 60px 0;
+    }
+
+    .why-section .why-inner {
+        gap: 40px;
+    }
+
+    .why-section .why-data {
+        row-gap: 45px;
+    }
+
+    .why-section .why-items-box p br {
+        display: none;
+    }
+
+    .leave-section .leave-info-inner h3 {
+        font-size: 20px;
+        line-height: 29px;
+    }
+
+    .treating-section .treating-item {
+        max-width: 318px;
+    }
+
+    .treating-section .treating-items-box {
+        justify-content: space-around;
+    }
+
+    .meet-team-banner.banner-section .banner-heading h1 {
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+    .find-broker-section .find-broker-heading br {
+        display: none;
+    }
+
+    .find-broker-section .find-broker-inner {
+        gap: 20px;
+    }
+
+    .tackle-section:before {
+        content: unset;
+    }
+
+    .tackle-section .tackle-heading h2 br {
+        display: none;
+    }
+
+    .side-section .side-inner {
+        padding: unset;
+    }
+
+    .claim-worker .worker-item2-p p br {
+        display: none;
+    }
+}
+
+@media (max-width: 992px) {
+
+    .banner-section {
+        padding: 150px 0 172px 0;
+
+    }
+
+    .broker-banner.banner-section {
+        padding: 150px 0 172px 0;
+
+    }
+
+    .board-banner.board-section {
+        padding: 150px 0 172px 0;
+    }
+
+    .find-broker-section {
+        padding-top: 150px;
+    }
+
+    .find-broker-inner {
+        padding-bottom: 80px;
+    }
+
+    .flex-lg-col {
+        flex-direction: column;
+    }
+
+    .w-lg-100 {
+        width: 100%;
+    }
+
+    .container {
+        max-width: 768px;
+    }
+
+    .trust-section .container {
+        padding: 0;
+    }
+
+    .trust-section .trust-inner h2 {
+        padding: 0 20px;
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    .trust-section .trust-box {
+        padding: 70px 20px;
+        gap: 40px;
+        position: relative;
+        top: -100px;
+    }
+
+    .trust-section .trust-items p br {
+        display: none;
+    }
+
+    .trust-section .trust-items p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .trust-section .trust-inner {
+        padding: unset;
+    }
+
+    .trust-section {
+        padding-bottom: 60px;
+    }
+
+    .protect-section .protect-img-data p:nth-child(1) {
+        top: 67px;
+        left: 63px;
+    }
+
+    .protect-section .protect-img-data p:nth-child(2) {
+        top: 177px;
+        left: 134px;
+    }
+
+    .protect-section .protect-img-data p:nth-child(3) {
+        top: 7px;
+        left: 333px;
+    }
+
+    .protect-section .protect-img-data p:nth-child(4) {
+        top: 132px;
+        right: 244px;
+    }
+
+    .protect-section .protect-img-data p:nth-child(5) {
+        top: 67px;
+        right: 99px;
+    }
+
+    .protect-section .protect-img-data p:nth-child(6) {
+        top: 170px;
+        right: -13px;
+    }
+
+    .worker-section .worker-item {
+        max-width: 33%;
+    }
+
+    .protect-section .protect-inner,
+    .partner-section .partner-outer,
+    .accidents-section .accidents-inner,
+    .worker-section .worker-outer,
+    .slider-section .slider-inner,
+    .leave-section .leave-inner,
+    .why-section .why-inner {
+        padding: unset;
+    }
+
+    .slider-section .slider-items {
+        padding: 0 35px 50px;
+    }
+
+    .slider-section .swiper-button-next {
+        right: 30.4% !important;
+    }
+
+    .navbar-toggle {
+        display: flex;
+        background: unset;
+    }
+
+    .body-active .navbar-info-bottom {
+        left: 0;
+    }
+
+    .make-payment {
+        display: flex;
+    }
+
+    .make-payment-top {
+        display: none;
+    }
+
+    .navbar-info-top {
+        border: unset;
+    }
+
+    .navbar-info-bottom {
+        position: fixed;
+        top: 92.86px;
+        left: -200%;
+        z-index: 999;
+        height: calc(100dvh - 92.86px);
+        background: #fff;
+        padding: 25px;
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .navbar-toggle {
+        align-self: baseline;
+        padding-top: 6px;
+    }
+
+    .navbar-logo a img {
+        width: 150px;
+    }
+
+    footer .footer-logo a img {
+        width: 150px;
+    }
+
+    .navbar-info-ul {
+        align-items: start;
+        padding-top: unset;
+        gap: 35px;
+    }
+
+    .dropdown-list {
+        position: static;
+        box-shadow: unset;
+        width: 100%;
+    }
+
+    .navbar-dropdown {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .navbar-logo {
+        padding: unset;
+    }
+
+    .dropdown-item a {
+        padding: 12px 5px;
+        color: #000000;
+    }
+
+    .body-active .navbar-toggle span:nth-child(1) {
+        -webkit-transform: translateY(13px) rotate(45deg);
+        -ms-transform: translateY(13px) rotate(45deg);
+        -o-transform: translateY(13px) rotate(45deg);
+        transform: translateY(13px) rotate(45deg);
+    }
+
+    .body-active .navbar-toggle span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .body-active .navbar-toggle span:nth-child(3) {
+        -webkit-transform: translateY(-13px) rotate(-45deg);
+        -ms-transform: translateY(-13px) rotate(-45deg);
+        -o-transform: translateY(-13px) rotate(-45deg);
+        transform: translateY(-13px) rotate(-45deg);
+    }
+
+    .body-active .navbar-toggle {
+        gap: 11px;
+    }
+
+    .body-active .opacity-div {
+        position: fixed;
+        background: rgb(0 0 0 / 55%);
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 777;
+    }
+
+    .navbar-info-top {
+        padding-bottom: 0;
+    }
+
+    footer .footer-items-box {
+        border: unset;
+        padding-left: unset;
+    }
+
+    footer .footer-logo {
+        display: none;
+    }
+
+    footer .footer-items-box-2 {
+        padding-top: 50px;
+    }
+
+    .linkedin-box {
+        padding-top: 50px;
+    }
+
+    .dropdown-item a {
+        border-bottom: 1px solid #474e5940;
+    }
+
+    .dropdown-button,
+    .get-support {
+        width: 100%;
+    }
+
+    .worker-section .worker-item:before {
+        content: unset !important;
+    }
+
+    .slider-section .slider-items h3 {
+        font-size: 20px;
+    }
+
+    .broker-header,
+    .meet-team {
+        background: #ffffff;
+    }
+
+    .treating-section .treating-items-box {
+        justify-content: space-between;
+    }
+
+    .corner-section:after,
+    .corner-section::before {
+        content: unset;
+    }
+
+    .meet-team-banner .banner-info {
+        order: 1;
+        padding: 30px 20px 0;
+    }
+
+    .meet-team-banner .container {
+        padding: 0;
+    }
+
+    .benefit-section .benefit-inner {
+        padding: unset;
+    }
+
+    .benefit-section {
+        padding: 50px 0 20px;
+    }
+
+    .benefit-section .befefit-heading h2 {
+        padding-bottom: 20px;
+    }
+
+    .benefit-section .benefit-item-heading h5,
+    .benefit-section .benefit-list-heading h5 {
+        font-size: 20px;
+        line-height: 30px;
+        padding-bottom: 15px;
+    }
+
+    .benefit-section .benefit-item-box {
+        border-top: 1px solid #1A2F55;
+        gap: 40px;
+        padding: 15px 0 40px;
+    }
+
+    .benefit-section2:before {
+        content: unset;
+    }
+
+    .tackle-section .tackle-inner {
+        padding: unset;
+    }
+
+    .side-section {
+        background: #F9FBFF;
+        padding: 50px 0;
+    }
+
+    .side-section .side-info {
+        max-width: unset;
+    }
+
+    .process-section .process-inner {
+        padding: unset;
+    }
+
+    .board-section .board-heading h2 br {
+        display: none;
+    }
+
+    .board-banner .board-para p br {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .flex-md-col {
+        flex-direction: column;
+    }
+
+    .slider-section .swiper-button-next {
+        right: 34% !important;
+    }
+
+    .w-md-100 {
+        width: 100%;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 24px
+    }
+
+    .container {
+        max-width: 576px;
+    }
+
+    .banner-section .banner-inner {
+        gap: 35px;
+    }
+
+    .banner-section .banner-heading h1,
+    .accidents-section .accidents-heading h2,
+    .protect-section .protect-heading h2,
+    .faq-section .faq-heading h2,
+    .partner-section .partner-heading h2,
+    .worker-section .worker-heading h2,
+    .why-section .why-heading h3,
+    .corner-section .corner-heading h2,
+    .treating-section .treating-heading h2,
+    .find-broker-section .find-broker-heading h1,
+    .benefit-section .befefit-heading h2,
+    .tackle-section .tackle-heading h2,
+    .side-section .side-info h2,
+    .process-section .process-heading h2,
+    .board-section .board-heading h2 {
+        font-size: 28px;
+        line-height: 34px;
+        letter-spacing: unset;
+    }
+
+    .find-broker-section .find-broker-inner {
+        gap: 30px;
+    }
+
+    .banner-section .banner-heading p {
+        padding: 24px 0 30px 0;
+    }
+
+    .banner-section {
+        padding: 127.86px 0 35px;
+    }
+
+    .board-banner.board-section {
+        padding: 127.86px 0 35px;
+    }
+
+    .broker-banner.banner-section {
+        padding: 127.86px 0 35px;
+    }
+
+    .find-broker-section {
+        padding-top: 127.86px;
+    }
+
+    .find-broker-inner {
+        padding-bottom: 60px;
+    }
+
+    .accidents-section .accidents-info {
+        order: 1;
+    }
+
+    .accidents-section {
+        padding: 62px 0 50px 0;
+    }
+
+    .faq-section .faq-items-btn .btn-inner {
+        font-size: 15px;
+    }
+
+    .faq-section .faq-items-btn button .btn-inner {
+        gap: 16px;
+    }
+
+    .faq-section .faq-item-data p {
+        gap: 16px;
+        font-size: 14px;
+    }
+
+    .faq-section,
+    .partner-section {
+        padding: 70px 0;
+    }
+
+    .protect-section .protect-img-data p {
+        font-size: 10px;
+        padding: 6px 11px;
+        line-height: 11px;
+    }
+
+    .protect-section .protect-img-data p:nth-child(1) {
+        top: 47px;
+        left: 50px;
+    }
+
+    .protect-section .protect-img-data p:nth-child(2) {
+        top: 126px;
+        left: 99px;
+    }
+
+    .protect-section .protect-img-data p:nth-child(3) {
+        top: 4px;
+        left: 235px;
+    }
+
+    .protect-section .protect-img-data p:nth-child(4) {
+        top: 91px;
+        right: 191px;
+    }
+
+    .protect-section .protect-img-data p:nth-child(5) {
+        top: 47px;
+        right: 76px;
+    }
+
+    .protect-section .protect-img-data p:nth-child(6) {
+        top: 126px;
+        right: 10px;
+    }
+
+    .faq-section .faq-heading h2 br {
+        display: block;
+    }
+
+    .partner-section .partner-info {
+        order: 1;
+    }
+
+    .partner-section .partner-items-btn {
+        font-size: 20px;
+    }
+
+    .worker-section .worker-item {
+        max-width: 50%;
+    }
+
+    .worker-section .worker-items-box {
+        padding-bottom: 60px;
+    }
+
+    .faq-section .faq-inner {
+        gap: 45px;
+    }
+
+    .slider-section {
+        padding: unset;
+    }
+
+    .slider-section .swiper-slide {
+        width: 100% !important;
+    }
+
+    .slider-section .slider-items {
+        padding: 0;
+        border: unset;
+        text-align: center;
+    }
+
+    .slider-section .swiper-wrapper {
+        padding: 50px 0 132px 0 !important;
+    }
+
+    .slider-section .slider-items h3 {
+        font-size: 23px;
+    }
+
+    .slider-section .slider-item-inner {
+        align-items: center;
+    }
+
+    .slider-section .slider-items p {
+        font-size: 15px;
+        padding: 32px 0 38px 0;
+    }
+
+    .slider-section .swiper-button-prev {
+        bottom: 50px;
+        top: unset !important;
+        left: 34% !important;
+    }
+
+    .slider-section .swiper-button-next {
+        bottom: 50px;
+        top: unset !important;
+    }
+
+    .protect-section {
+        padding-top: 50px;
+    }
+
+    footer .footer-inner {
+        padding: unset;
+    }
+
+    .protect-section .protect-heading p {
+        padding: 25px 0;
+    }
+
+    footer {
+        padding: 60px 0 40px 0;
+    }
+
+    .partner-section .partner-heading {
+        padding-bottom: 38px;
+    }
+
+    .partner-section .partner-info .partner-img {
+        display: block;
+    }
+
+    .partner-section .partner-img {
+        display: none;
+    }
+
+    .trust-section .trust-inner {
+        text-align: center;
+    }
+
+    .slider-section .slider-btn {
+        padding-bottom: 50px;
+        padding-top: unset;
+    }
+
+    .trust-section .trust-box {
+        top: -37px;
+        flex-wrap: wrap;
+    }
+
+    .trust-section .trust-items p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .trust-section .trust-items {
+        align-items: center;
+    }
+
+    .accidents-section .accidents-img img {
+        position: static;
+    }
+
+    .accidents-section .accidents-heading h2 {
+        padding-top: 77px;
+        line-height: 38px;
+    }
+
+    .leave-section .leave-info {
+        order: 1;
+        padding-top: 30px;
+    }
+
+    .business-leave .leave-box:nth-child(even) .leave-info {
+        order: 1;
+    }
+
+    .leave-section .leave-box:nth-child(even) .leave-img {
+        padding-right: unset;
+    }
+
+    .leave-section .leave-box:nth-child(odd) .leave-img {
+        padding-left: unset;
+    }
+
+    .worker-section:before,
+    .worker-section:after,
+    .slider-section:before,
+    .leave-section:after,
+    .leave-section:before {
+        content: unset;
+    }
+
+    .leave-inner {
+        gap: 60px;
+    }
+
+    .corner-section {
+        padding: 60px 0;
+    }
+
+    .corner-section .corner-heading h2 {
+        padding-bottom: 50px;
+    }
+
+    .corner-section .corner-name h4 {
+        font-size: 20px;
+    }
+
+    .corner-section .corner-img-box {
+        row-gap: 60px;
+    }
+
+    .treating-section {
+        padding: 60px 0;
+    }
+
+    .treating-section br {
+        display: none;
+    }
+
+    .treating-section .treating-items-box {
+        padding: 50px 0;
+    }
+
+    .treating-section .treating-item h3 {
+        padding: 20px 0px;
+    }
+
+    .treating-section .treating-item {
+        padding: 0 0 0 23px;
+        max-width: 250px;
+    }
+
+    .meet-team-banner .heading-btn {
+        padding-top: 50px;
+    }
+
+    .meet-team-banner .banner-info {
+        order: 1;
+        padding: 0 20px;
+    }
+
+    .business-leave.leave-section .leave-box:nth-child(even) .leave-img {
+        padding-left: unset;
+    }
+
+    .tackle-section {
+        padding: 50px 0;
+    }
+
+    .tackle-section .tackle-upper-heading .line-div {
+        display: none;
+    }
+
+    .tackle-section .tackle-upper-heading {
+        margin-bottom: 30px;
+    }
+
+    .tackle-section .tackle-list-box {
+        padding-bottom: 20px;
+    }
+
+    .side-section .side-info h2 {
+        padding-bottom: 15px;
+    }
+
+    .side-section .side-info-inner .extra-p {
+        padding-top: 25px;
+    }
+
+    .side-section .side-img p br {
+        display: none;
+    }
+
+    .side-section .side-img p {
+        padding-top: 20px;
+    }
+
+    .solution-section .solution-inner {
+        background: url(../images/svg/solution-bg.svg) no-repeat right/cover;
+    }
+
+    .claim-section .claim-inner {
+        background: url(../images/svg/claim-bg.svg) no-repeat right/cover;
+    }
+
+    .claim-section {
+        padding-bottom: 50px;
+    }
+
+    .claim-worker .worker-item2 {
+        max-width: 100%;
+    }
+
+    .claim-worker .worker-item2-p p br {
+        display: block;
+    }
+
+    .process-section .process-box {
+        align-items: center;
+    }
+
+    .process-section {
+        padding: 60px 0;
+    }
+
+    .board-section {
+        padding: 50px 0;
+    }
+
+    .board-banner .board-para h4 {
+        font-size: 20px;
+        padding-bottom: 15px;
+    }
+
+    .process-section:before,
+    .process-section:after {
+        content: unset;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        max-width: 390px;
+    }
+
+    .slider-section .slider-img img {
+        width: 87px;
+        height: 79px;
+    }
+
+    .trust-section .trust-items br,
+    .accidents-section .accidents-heading br,
+    .protect-section .protect-heading p br {
+        display: none;
+    }
+
+    .protect-section .protect-img-data p {
+        font-size: 10px;
+        padding: 6px 11px;
+        line-height: 11px;
+    }
+
+    .protect-section .protect-img-data p:nth-child(1) {
+        top: 24px;
+        left: 24px;
+    }
+
+    .protect-section .protect-img-data p:nth-child(2) {
+        top: 74px;
+        left: 51px;
+    }
+
+    .protect-section .protect-img-data p:nth-child(3) {
+        top: -3px;
+        left: 135px;
+    }
+
+    .protect-section .protect-img-data p:nth-child(4) {
+        top: 51px;
+        right: 106px;
+    }
+
+    .protect-section .protect-img-data p:nth-child(5) {
+        top: 24px;
+        right: 33px;
+    }
+
+    .protect-section .protect-img-data p:nth-child(6) {
+        top: 73px;
+        right: -9px;
+    }
+
+    .slider-section .slider-name span {
+        display: none;
+    }
+
+    .partner-section .container {
+        padding: 0;
+    }
+
+    .partner-section .partner-info {
+        padding: 0 20px;
+    }
+
+    .heading-btn {
+        justify-content: space-between;
+    }
+
+    .trust-section {
+        padding-bottom: 93px;
+    }
+
+    .trust-section .trust-inner h2 {
+        padding: 50px 20px 0;
+    }
+
+    .partner-section .partner-inner {
+        padding-bottom: 64px;
+    }
+
+    /* 
+    .faq-section,
+    .partner-section .partner-section {
+        padding: 50px 0;
+    } */
+
+    .faq-section {
+        padding-top: 51px;
+    }
+
+    .worker-section .worker-heading h2 br {
+        display: none;
+    }
+
+    .worker-section .worker-heading p {
+        padding-top: 26px;
+    }
+
+    .worker-section .worker-inner {
+        padding-bottom: 50px;
+    }
+
+    .swiper-button-next {
+        right: 33% !important;
+    }
+
+    .swiper-button-prev {
+        left: 37% !important;
+    }
+
+    .faq-section .faq-heading h2 {
+        line-height: 40px;
+    }
+
+    .faq-section .faq-items-btn button .btn-inner {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+    }
+
+    .accidents-section {
+        background: url("../images/svg/accidents-bg-small.svg") no-repeat center center/cover;
+    }
+
+    .accidents-section .accidents-heading p {
+        padding: 24px 0 43px 0;
+    }
+
+    footer .footer-item {
+        gap: 20px;
+    }
+
+    footer .footer-items-inner {
+        gap: 20px;
+    }
+
+    footer .footer-items-2-items {
+        gap: 25px;
+
+    }
+
+    footer .footer-bootom {
+        padding: 36px 20px 0;
+    }
+
+    footer .footer-top {
+        padding: 0 20px 40px;
+    }
+
+    footer .container {
+        padding: 0;
+    }
+
+    .worker-section .worker-btn a {
+        font-size: 14px;
+    }
+
+    .worker-section .worker-btn a img {
+        display: none;
+    }
+
+    .partner-section .partner-accodian-box {
+        padding-top: unset;
+    }
+
+    .navbar-info-top a {
+        font-weight: 500;
+    }
+
+    .banner-section .banner-heading h1 {
+        font-size: 27px;
+    }
+
+    .partner-section .partner-items-btn {
+        padding: 10px 0 13px 0;
+    }
+
+    .partner-section .partner-accodian-box {
+        padding-bottom: 45px;
+    }
+
+    .partner-section {
+        padding-bottom: 50px;
+    }
+
+    .worker-section .worker-heading {
+        padding-bottom: 57px;
+    }
+
+    .faq-section .faq-item-data {
+        padding-top: 27px;
+    }
+
+    .accidents-section .accidents-heading br {
+        display: block;
+    }
+
+    footer .footer-items-inner a {
+        line-height: 18px;
+    }
+
+    footer .footer-items-2-items a {
+        transform: unset;
+    }
+
+    .linkedin-box {
+        padding-top: 61px;
+    }
+
+    .accidents-section .accidents-img {
+        padding-left: unset;
+    }
+
+    .worker-section .worker-btn i {
+        display: none;
+    }
+
+    .trust-section .trust-slider {
+        padding: 15px 0;
+    }
+
+    .broker-trust.trust-section {
+        padding-bottom: 0;
+    }
+
+    .leave-section {
+        padding: 50px 0;
+    }
+
+    .broker-banner .banner-heading p br {
+        display: none;
+    }
+
+    .why-section .why-items-box {
+        width: 100%;
+    }
+
+    .solution-section .container {
+        padding: 0;
+    }
+
+    .claim-section .container {
+        padding: 0;
+    }
+
+    .claim-worker .worker-item2-p p br {
+        display: none;
+    }
+
+    .process-section .process-step {
+        padding-left: 70px;
+        padding-bottom: 50px;
+    }
+
+}
