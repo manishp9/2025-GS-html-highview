@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Highview" />
+    <meta property="og:description" content="Win insureds
+over with ease
+" />
+    <meta property="og:image" content="" />
+    <link rel="icon" type="image/svg" href="images/svg/fav.svg">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Highview | Business</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body class="transition">
+    <!-- HEADER SECTION START -->
+    <header class="transition broker-header">
+        <div class="container transition">
+            <nav class="navbar-inner flex justify-between align-center">
+                <div class="navbar-left-box flex align-center">
+                    <button class="navbar-toggle flex flex-col border-0">
+                        <span class="transition"></span>
+                        <span class="transition"></span>
+                        <span class="transition"></span>
+                    </button>
+                    <div class="navbar-logo">
+                        <a href="index.html">
+                            <img src="images/svg/logo.svg" alt="logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="navbar-info">
+                    <div class="navbar-info-top flex justify-end">
+                        <a href="#" class="f-16 flex align-center make-payment-top"> <span>Make a Payment </span> <i
+                                class="fa-solid fa-arrow-right"></i></a>
+                        <a href="#" class="f-16 flex align-center">Login<img src="images/svg/login-img.svg"
+                                alt="login-img"></a>
+                    </div>
+                    <div class="navbar-info-bottom transition">
+                        <ul class="navbar-info-ul flex align-center flex-lg-col justify-between">
+                            <li class="navbar-dropdown w-100 flex align-center" id="dropdown1">
+                                <a href="#"
+                                    class="dropdown-a border-0 f-16 flex align-center justify-between text-nowrap">
+                                    What We Offer
+                                </a>
+                                <i class="fa-regular fa-chevron-down arrow"></i>
+                                <ul class="dropdown-list w-100">
+                                    <li class="dropdown-item"><a href="index.html#workers-comp-insurance"
+                                            class="flex">Workers’ Comp Insurance</a></li>
+                                    <li class="dropdown-item"><a href="index.html#risk-solution" class="flex">The Risk
+                                            Solution™</a></li>
+                                    <li class="dropdown-item"><a href="index.html#claimsake" class="flex">Claimsake™</a>
+                                    </li>
+                                    <li class="dropdown-item"><a href="index.html#who-we-cover" class="flex">Who We
+                                            Cover</a></li>
+                                    <li class="dropdown-item"><a href="index.html#our-process" class="flex">Our
+                                            Process</a></li>
+                                </ul>
+                            </li>
+                            <li class="navbar-dropdown w-100 flex align-center" id="dropdown1">
+                                <a href="meet-the-team.html"
+                                    class="dropdown-a border-0 f-16 flex align-center justify-between text-nowrap">
+                                    Why Highview
+                                </a>
+                                <i class="fa-regular fa-chevron-down arrow"></i>
+                                <ul class="dropdown-list w-100">
+                                    <li class="dropdown-item"><a href="meet-the-team.html" class="flex">Meet The
+                                            Team</a>
+                                    </li>
+                                    <li class="dropdown-item"><a href="meet-the-team.html#treating-section"
+                                            class="flex">Our
+                                            Promise</a></li>
+                                    <li class="dropdown-item"><a href="meet-the-team.html#testimonials"
+                                            class="flex">What
+                                            They Say</a></li>
+                                </ul>
+                            </li>
+                            <li class="navbar-dropdown w-100 flex align-center" id="dropdown1">
+                                <a href="broker.html"
+                                    class="dropdown-a border-0 f-16 flex align-center justify-between text-nowrap">
+                                    I’m A Broker
+                                </a>
+                                <i class="fa-regular fa-chevron-down arrow"></i>
+                                <ul class="dropdown-list w-100">
+                                    <li class="dropdown-item"><a href="broker.html#how_we_work" class="flex">How We
+                                            Work</a>
+                                    </li>
+                                    <li class="dropdown-item"><a href="broker.html#appetite_guide" class="flex">The
+                                            Appetite
+                                            Guide</a></li>
+                                    <li class="dropdown-item"><a href="broker.html#broker_partner" class="flex">Partner
+                                            With
+                                            Us</a></li>
+                                </ul>
+                            </li>
+                            <li class="navbar-dropdown w-100 flex align-center" id="dropdown1">
+                                <a href="business.html"
+                                    class="dropdown-a border-0 f-16 flex align-center justify-between text-nowrap">
+                                    I’m A Business
+                                </a>
+                                <i class="fa-regular fa-chevron-down arrow"></i>
+                                <ul class="dropdown-list w-100">
+                                    <li class="dropdown-item"><a href="business.html" class="flex">Working With Us</a>
+                                    </li>
+                                    <li class="dropdown-item"><a href="business.html#did_you_know" class="flex">Did You
+                                            Know</a></li>
+                                    <li class="dropdown-item"><a href="find-a-broker.html#find_broker" class="flex">Find
+                                            A
+                                            Broker</a></li>
+                                </ul>
+                            </li>
+                            <li class="">
+                                <a class="get-support text-nowrap" href="find-a-broker.html">Get Support</a>
+                            </li>
+                            <li class="make-payment w-100">
+                                <a href="#" class="f-16 flex align-center text-nowrap">Make a Payment <i
+                                        class="fa-solid fa-arrow-right"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="opacity-div transition"></div>
+    <!-- HEADER SECTION FINISHED -->
+    <!-- BANNER SECTION START -->
+    <section class="banner-section broker-banner business-banner">
+        <div class="container wow fadeInUp" data-wow-delay="0.3s">
+            <div class="banner-inner flex flex-lg-col align-center justify-between">
+                <div class="banner-info w-50 w-lg-100">
+                    <div class="banner-heading">
+                        <h1 class="f-500 text-black">Accidents can happen.<br>We help you avoid<br> them — and
+                            protect<br> you when they do.
+                        </h1>
+                        <p class="f-16">We are dedicated to lowering workplace risks, costs — and stress</p>
+                        <div class="heading-btn flex">
+                            <a href="find-a-broker.html"
+                                class="flex text-nowrap align-center f-16 text-white btn-same">Find a broker<i
+                                    class="fa-solid fa-arrow-right"></i></a>
+                            <a href="broker.html"
+                                class="flex text-nowrap align-center f-16 text-black btn-same btn-same-2 f-500">Learn
+                                more<i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="banner-img w-50 w-md-100">
+                    <div class="banner-img">
+                        <img src="images/business-banner-img.png" alt="banner-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- BANNER SECTION FINISHED -->
+    <!-- TRUST SECTION START -->
+    <section class="trust-section broker-trust">
+        <div class="container wow fadeInUp" data-wow-delay="0.4s">
+            <div class="trust-inner">
+                <div class="trust-box flex justify-between align-center">
+                    <div class="trust-items flex">
+                        <div class="trust-img">
+                            <img src="images/svg/business-trust-img1.svg" alt="trust-img">
+                        </div>
+                        <p class="f-16">Customized plans for<br> 400+ industries<br> <span class="text-nowrap">across
+                                the east coast</span></p>
+                    </div>
+                    <div class="trust-items flex">
+                        <div class="trust-img">
+                            <img src="images/svg/business-trust-img2.svg" alt="trust-img">
+                        </div>
+                        <p class="font-2 f-16">Over 30 years<br> experience in workers’<br> compensation insurance</p>
+                    </div>
+                    <div class="trust-items flex">
+                        <div class="trust-img">
+                            <img src="images/svg/business-trust-img3.svg" alt="trust-img">
+                        </div>
+                        <p class="font-2 f-16">24/7<br> Nurse support</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- TRUST SECTION FINISHED -->
+    <!-- WORKER SECTION START -->
+    <section class="worker-section broker-worker business-worker">
+        <div class="container wow fadeInUp" data-wow-delay="0.3s">
+            <div class="worker-outer">
+                <div class="worker-inner">
+                    <div class="worker-heading">
+                        <h2 class="f-500 text-black">We do workers’ comp insurance all day, every day.<br> Our bottom
+                            line is about protecting yours.</h2>
+                        <p class="f-16">You may need insurance because it’s the law. But the choice of what kind is up
+                            to you.</p>
+                        <p class="f-500 f-16 text-black">Get the support and coverage you need and avoid:</p>
+                    </div>
+                    <div class="worker-items-box flex">
+                        <div class="worker-item">
+                            <img src="images/svg/worker-img1.svg" alt="worker-img">
+                            <p class="f-16">Workplace<br> accidents</p>
+                        </div>
+                        <div class="worker-item">
+                            <img src="images/svg/worker-img2.svg" alt="worker-img">
+                            <p class="f-16">Out-of pocket<br> business expenses</p>
+                        </div>
+                        <div class="worker-item">
+                            <img src="images/svg/worker-img3.svg" alt="worker-img">
+                            <p class="f-16">Employee<br> lawsuits</p>
+                        </div>
+                        <div class="worker-item">
+                            <img src="images/svg/worker-img4.svg" alt="worker-img">
+                            <p class="f-16">Rising<br> insurance costs</p>
+                        </div>
+                    </div>
+                    <div class="worker-btn flex">
+                        <a href="find-a-broker.html" class="flex text-nowrap align-center f-16 text-white btn-same">Find
+                            a broker<i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- WORKER SECTION FINISHED -->
+    <!-- LEAVE SECTION START -->
+    <section class="leave-section business-leave">
+        <div class="container  wow fadeInUp" data-wow-delay="0.3s">
+            <div class="leave-inner flex flex-col">
+                <div class="leave-box flex flex-md-col justify-between">
+                    <div class="leave-info w-md-100">
+                        <div class="leave-info-inner">
+                            <h3 class="text-black f-500">The leaders in workers’<br> comp insurance</h3>
+                            <p class="f-16">Since 2019, we’ve been partnering with businesses to make workers' comp
+                                insurance simple, smooth, and stress-free. Our
+                                passionate team of experts know the ins and outs of workers’ comp. From managing claims
+                                to reducing costs, we understand
+                                that good enough is not good enough. 
+                            </p>
+                            <div class="leave-btn flex">
+                                <a href="meet-the-team.html"
+                                    class="flex text-nowrap align-center f-16 text-white btn-same">Meet the
+                                    team <i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="leave-img w-md-100">
+                        <div class="leave-img-inner">
+                            <img src="images/leave-img.png" alt="leave-img">
+                        </div>
+                        <div>
+                        </div>
+                    </div>
+                </div>
+                <div class="leave-box flex flex-md-col justify-between">
+                    <div class="leave-info w-md-100">
+                        <div class="leave-info-inner">
+                            <h3 class="text-black f-500">Comp doesn’t stand<br> for complicated</h3>
+                            <p class="f-16">We deliver best-in-class service and tailor-made insurance plans that meet
+                                your unique needs and exceed your
+                                expectations. The bedrock of business is transparency and trust, and at Highview, we’ll
+                                stop at nothing to earn yours.</p>
+                            <div class="leave-btn flex">
+                                <a href="meet-the-team.html"
+                                    class="flex text-nowrap align-center f-16 text-white btn-same">Meet the
+                                    team <i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="leave-img w-md-100">
+                        <div class="leave-img-inner">
+                            <img src="images/leave-img.png" alt="leave-img">
+                        </div>
+                        <div>
+                        </div>
+                    </div>
+                </div>
+    </section>
+    <!-- LEAVE SECTION FINISHED -->
+    <!-- WORKER SECTION START -->
+    <section class="worker-section broker-worker business-worker2">
+        <div class="container wow fadeInUp" data-wow-delay="0.3s">
+            <div class="worker-outer">
+                <div class="worker-inner">
+                    <div class="worker-heading">
+                        <h2 class="f-500 text-black">Workers’ compensation insurance<br> and risk management solutions
+                            that
+                            work</h2>
+                        <p class="f-16">Helping businesses avoid accidents and protecting them when they do</p>
+                    </div>
+                    <div class="worker-items-box flex">
+                        <div class="worker-item">
+                            <img src="images/svg/worker-img5.svg" alt="worker-img">
+                            <p class="f-16">Comprehensive<br> coverage</p>
+                        </div>
+                        <div class="worker-item">
+                            <img src="images/svg/worker-img6.svg" alt="worker-img">
+                            <p class="f-16">Client-focused<br> service</p>
+                        </div>
+                        <div class="worker-item">
+                            <img src="images/svg/worker-img7.svg" alt="worker-img">
+                            <p class="f-16">Rigorous fraud<br> prevention</p>
+                        </div>
+                        <div class="worker-item">
+                            <img src="images/svg/worker-img8.svg" alt="worker-img">
+                            <p class="f-16">24/7 Nurse<br> support</p>
+                        </div>
+                        <div class="worker-item">
+                            <img src="images/svg/worker-img1.svg" alt="worker-img">
+                            <p class="f-16">Industry-specific<br> solutions</p>
+                        </div>
+                        <div class="worker-item">
+                            <img src="images/svg/worker-img2.svg" alt="worker-img">
+                            <p class="f-16">Proactive risk<br> prevention</p>
+                        </div>
+                        <div class="worker-item">
+                            <img src="images/svg/worker-img3.svg" alt="worker-img">
+                            <p class="f-16">Efficient claims<br> processing</p>
+                        </div>
+                        <div class="worker-item">
+                            <img src="images/svg/worker-img4.svg" alt="worker-img">
+                            <p class="f-16">Effective back-<br> to-work programs</p>
+                        </div>
+                    </div>
+                    <div class="worker-btn flex">
+                        <a href="#" class="flex text-nowrap align-center f-16 text-white btn-same">Learn more about
+                            workers’ comp insurance <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- WORKER SECTION FINISHED -->
+    <!-- LEAVE SECTION START -->
+    <section class="leave-section business-leave2">
+        <div class="container  wow fadeInUp" data-wow-delay="0.3s">
+            <div class="leave-inner flex flex-col">
+                <div class="leave-box flex flex-md-col justify-between">
+                    <div class="leave-info w-md-100">
+                        <div class="leave-info-inner">
+                            <h3 class="text-black f-500">You have enough to do —<br> leave workers’ comp to us</h3>
+                            <p class="f-16">We specialize in simplifying your insurance needs with comprehensive plans
+                                and expert support so you can focus on
+                                running your business</p>
+                            <div class="leave-btn flex">
+                                <a href="#"
+                                    class="flex text-nowrap align-center f-16 text-black btn-same btn-same-2 f-500">Learn
+                                    the ins and outs<i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="leave-img w-md-100">
+                        <div class="leave-img-inner">
+                            <img src="images/leave-img.png" alt="leave-img">
+                        </div>
+                        <div>
+                        </div>
+                    </div>
+                </div>
+                <div class="leave-box flex flex-md-col justify-between">
+                    <div class="leave-info w-md-100">
+                        <div class="leave-info-inner">
+                            <h3 class="text-black f-500">You need your employees<br> back at work — we get<br> them back
+                                quickly</h3>
+                            <p class="f-16">We offer return-to-work programs including modified work arrangements, to
+                                get your workers back on track swiftly and
+                                safely</p>
+                            <div class="leave-btn flex">
+                                <a href="what-we-offer.html"
+                                    class="flex text-nowrap align-center f-16 text-black btn-same btn-same-2 f-500">What
+                                    we offer<i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="leave-img w-md-100">
+                        <div class="leave-img-inner">
+                            <img src="images/leave-img.png" alt="leave-img">
+                        </div>
+                        <div>
+                        </div>
+                    </div>
+                </div>
+                <div class="leave-box flex flex-md-col justify-between">
+                    <div class="leave-info w-md-100">
+                        <div class="leave-info-inner">
+                            <h3 class="text-black f-500">You have no time for hidden<br> fees or fraud — neither do we
+                            </h3>
+                            <p class="f-16">We guarantee complete transparency in our pricing and offer meticulous fraud
+                                protection, so you can rest assured there
+                                will be no unexpected surprises or stresses</p>
+                            <div class="leave-btn flex">
+                                <a href="#"
+                                    class="flex text-nowrap align-center f-16 text-black btn-same btn-same-2 f-500">Learn
+                                    more<i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="leave-img w-md-100">
+                        <div class="leave-img-inner">
+                            <img src="images/leave-img.png" alt="leave-img">
+                        </div>
+                        <div>
+                        </div>
+                    </div>
+                </div>
+                <div class="leave-box flex flex-md-col justify-between">
+                    <div class="leave-info w-md-100">
+                        <div class="leave-info-inner">
+                            <h3 class="text-black f-500">You need to speak to<br> humans, not robots —<br> we got you
+                            </h3>
+                            <p class="f-16">You won't hear a robot saying "Your call is important to us, please hold.”
+                                You’ll always speak to a human whose only
+                                goal is to make your day better</p>
+                            <div class="leave-btn flex">
+                                <a href="#"
+                                    class="flex text-nowrap align-center f-16 text-black btn-same btn-same-2 f-500">Learn
+                                    more
+                                    <i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="leave-img w-md-100">
+                        <div class="leave-img-inner">
+                            <img src="images/leave-img.png" alt="leave-img">
+                        </div>
+                        <div>
+                        </div>
+                    </div>
+                </div>
+    </section>
+    <!-- LEAVE SECTION FINISHED -->
+    <!-- BENEFIT SECTION START -->
+    <section class="benefit-section">
+        <div class="container wow fadeInUp" data-wow-delay="0.3s">
+            <div class="benefit-inner">
+                <div class="befefit-heading">
+                    <h2 class="f-500 text-black">You need it and can benefit from it too</h2>
+                    <div class="benefit-box">
+                        <div class="benefit-item-box flex flex-lg-col">
+                            <div class="benefit-item-heading">
+                                <h5 class="f-500 text-black">Did you know?</h5>
+                                <p class="f-16">Workers’ compensation is<br> required by law in every US<br> state
+                                    (other than Texas).</p>
+                            </div>
+                            <div class="benefit-list-box">
+                                <div class="benefit-list-heading">
+                                    <h5 class="f-500 text-black">Who needs workers’ compensation insurance?</h5>
+                                </div>
+                                <div class="benefit-list">
+                                    <ul>
+                                        <li>
+                                            Any business with one or more employees
+                                        </li>
+                                        <li>
+                                            Companies in high-risk industries
+                                        </li>
+                                        <li>
+                                            Employers with full-time, part-time, or seasonal workers
+                                        </li>
+                                        <li>
+                                            Businesses with independent contractors (depending on state laws)
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="benefit-item-box benefit-item-box2 flex flex-lg-col">
+                            <div class="benefit-item-heading">
+                                <h5 class="f-500 text-black text-nowrap">Why is<br> workers' comp required?</h5>
+                                <p class="f-16">Workers’ compensation is<br> required by law in every US<br> state
+                                    (other than Texas).</p>
+                            </div>
+                            <div class="benefit-list-box">
+                                <div class="benefit-list-heading">
+                                    <h5 class="f-500 text-black">Not having workers’ compensation means you are exposed
+                                        to:</h5>
+                                </div>
+                                <div class="benefit-list">
+                                    <ul>
+                                        <li>
+                                            <span class="f-500 text-black">Legal penalty</span> (you could be personally
+                                            held liable for injuries/fatalities)
+                                        </li>
+                                        <li>
+                                            <span class="f-500 text-black">Fines</span> (states impose fines that can
+                                            reach thousands of dollars per day for every uninsured employee)
+                                        </li>
+                                        <li>
+                                            <span class="f-500 text-black">Lawsuits</span> (an injured employee could
+                                            file a lawsuit for medical bills and lost wages)
+                                        </li>
+                                        <li>
+                                            <span class="f-500 text-black">Bankruptcy</span> (one severe injury/fatality
+                                            could result in a multimillion-dollar settlement)
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- BENEFIT SECTION FINISHED -->
+    <!-- BENEFIT SECTION START -->
+    <section class="benefit-section benefit-section2">
+        <div class="container wow fadeInUp" data-wow-delay="0.3s">
+            <div class="benefit-inner">
+                <div class="befefit-heading">
+                    <h2 class="f-500 text-black">You’re leaving money on the table</h2>
+                    <div class="benefit-box">
+                        <div class="benefit-item-box flex flex-lg-col">
+                            <div class="benefit-item-heading">
+                                <h5 class="f-500 text-black">Did you know?</h5>
+                                <p class="f-16">Indirect costs of workers’ comp<br> claims are 3—10X higher than<br>
+                                    direct costs. </p>
+                                <p class="f-500 extra-p text-black">We analyze the full impact of a<br> claim to give
+                                    you the<br> reimbursements you deserve </p>
+                            </div>
+                            <div class="benefit-list-box">
+                                <div class="benefit-list-heading">
+                                    <h5 class="f-500 text-black">We look at the bigger picture and factor in these
+                                        costs: </h5>
+                                </div>
+                                <div class="benefit-list">
+                                    <ul>
+                                        <li>
+                                            Administrative overtime
+                                        </li>
+                                        <li>
+                                            Replacement training 
+                                        </li>
+                                        <li>
+                                            Productivity loss
+                                        </li>
+                                        <li>
+                                            Overtime/temp labor
+                                        </li>
+                                        <li>
+                                            Workplace morale
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- BENEFIT SECTION FINISHED -->
+    <!-- SIDE SECTION START -->
+    <section class="side-section">
+        <div class="container wow fadeInUp" data-wow-delay="0.3s">
+            <div class="side-inner flex flex-lg-col align-center justify-between">
+                <div class="side-info w-50 w-lg-100">
+                    <h2 class="f-500">We are on your side</h2>
+                    <div class="side-info-inner">
+                        <h4 class="f-500">Did you know?</h4>
+                        <p class="f-16">70% of lost time is medically unnecessary. The longer an injured worker is out,
+                            the less
+                            likely they are to return to
+                            full duty. 
+                        </p>
+                        <p class="extra-p f-16 text-black f-500">That’s why we work hand-in-hand with medical
+                            professionals to
+                            help employees return to productive work sooner, and to
+                            their normal work duties, as quickly as possible
+                        </p>
+                    </div>
+                </div>
+                <div class="side-img w-50 w-lg-100">
+                    <p class="f-16">After 12 weeks out, there’s a 50% chance of<br> your employee returning to work</p>
+                    <div class="side-img-inner">
+                        <img src="images/side-img.png" alt="side-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SIDE SECTION FINISHED -->
+    <!-- TACKLE SECTION START -->
+    <section class="tackle-section">
+        <div class="container wow fadeInUp" data-wow-delay="0.3s">
+            <div class="tackle-inner">
+                <div class="tackle-upper-heading flex align-center justify-between">
+                    <h4 class="f-500">How to reduce workers' compensation costs</h4>
+                    <div class="line-div"></div>
+                </div>
+                <div class="tackle-heading">
+                    <h2 class="f-500 text-black">We tackle the at-home-sick-because-I-got-<br> workers-comp syndrome by
+                        working with:</h2>
+                </div>
+                <div class="tackle-list-box">
+                    <div class="tackle-list flex flex-md-col f-16">
+                        <li class="f-500">A workability mindset:</li>
+                        <p>What can the injured worker do as opposed to what can’t they do.</p>
+                    </div>
+                    <div class="tackle-list flex flex-md-col f-16">
+                        <li class="f-500">A team of medical experts:</li>
+                        <p>How can the injured worker stay active and heal faster?</p>
+                    </div>
+                    <div class="tackle-list flex flex-md-col f-16">
+                        <li class="f-500">A forward-thinking drive:</li>
+                        <p>We proactively move a claim forward and never allow it to linger unattended</p>
+                    </div>
+                    <div class="tackle-list flex flex-md-col f-16">
+                        <li class="f-500">A solid back-to-work program:</li>
+                        <p>We reduce lost time by getting the employee back to modified duty as they work their way back
+                            to full responsibilities</p>
+                    </div>
+                </div>
+                <div class="tackle-btn flex">
+                    <a href="find-a-broker.html" class="flex text-nowrap align-center f-16 text-white btn-same">Work
+                        with us<i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- TACKLE SECTION FINISHED -->
+    <!-- SLIDER SECTION START -->
+    <section class="slider-section broker-slider">
+        <div class="container  wow fadeInUp" data-wow-delay="0.3s">
+            <div class="slider-inner">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="slider-items">
+                                <div class="slider-item-inner flex flex-col">
+                                    <div class="slider-img-box flex justify-between w-100 align-center">
+                                        <div class="slider-img">
+                                            <img src="images/slider-img.jfif" alt="slider-img">
+                                        </div>
+                                        <h3 class="f-500">“I am 100% confident in<br> writing with them”</h3>
+                                    </div>
+                                    <p class="f-16">“Highview is an all-encompassing insurance carrier. They form a
+                                        complete partnership with us and take care of everything
+                                        from writing the policies to loss control claims management and more. With their
+                                        excellent staff and quick turnaround
+                                        time, I am 100% confident in writing with them.
+                                    </p>
+                                    <div class="slider-name f-500 f-16 flex align-center justify-end w-100">
+                                        <span></span>
+                                        L.M: <em> Hub International </em>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slider-items">
+                                <div class="slider-item-inner flex flex-col">
+                                    <div class="slider-img-box flex justify-between w-100 align-center">
+                                        <div class="slider-img">
+                                            <img src="images/slider-img.jfif" alt="slider-img">
+                                        </div>
+                                        <h3 class="f-500">“I just call Isaac”</h3>
+                                    </div>
+                                    <p class="f-16">“Highview is a group of genuinely caring people who are easy to deal
+                                        with. If anything ever comes up, I know it will be
+                                        dealt with immediately and my insureds will remain satisfied with the outcome. I
+                                        just call Isaac and he picks up and
+                                        makes sure it’s taken care of — it’s that simple.”
+                                    </p>
+                                    <div class="slider-name f-500 f-16 flex align-center justify-end w-100">
+                                        <span></span>
+                                        Mendel Parnas: <em> Omni Agency </em>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slider-items">
+                                <div class="slider-item-inner flex flex-col">
+                                    <div class="slider-img-box flex justify-between w-100 align-center">
+                                        <div class="slider-img">
+                                            <img src="images/slider-img.jfif" alt="slider-img">
+                                        </div>
+                                        <h3 class="f-500">“They… help us<br> grow our business”</h3>
+                                    </div>
+                                    <p class="f-16">“Highview is more than another carrier in a pool of many others.
+                                        They are unique in being professional with a very
+                                        personal approach. This is a combination that you don’t see often. They also
+                                        accommodate us through the process to help
+                                        us grow our business.”
+                                    </p>
+                                    <div class="slider-name f-500 f-16 flex align-center justify-end w-100">
+                                        <span></span>
+                                        Leibish Bochner: <em> GNP Brokerage </em>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slider-items">
+                                <div class="slider-item-inner flex flex-col">
+                                    <div class="slider-img-box flex justify-between w-100 align-center">
+                                        <div class="slider-img">
+                                            <img src="images/slider-img.jfif" alt="slider-img">
+                                        </div>
+                                        <h3 class="f-500">“Highview helps keep<br> things running smoothly”</h3>
+                                    </div>
+                                    <p class="f-16">“Working with Highview helps keep things running smoothly with their
+                                        timely
+                                        responses and acting on
+                                        things in an
+                                        efficient manner. In addition, their return to work and safety programs are an
+                                        added
+                                        bonus we
+                                        don’t
+                                        get with other
+                                        carriers.” 
+                                    </p>
+                                    <div class="slider-name f-500 f-16 flex align-center justify-end w-100">
+                                        <span></span>
+                                        Jim Schmerbeck:<em> Western PA Consulting </em>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"><img class="transition" src="images/svg/arrow-right.svg"
+                            alt="arrow-right"></div>
+                    <div class="swiper-button-prev"><img class="transition" src="images/svg/arrow-left.svg"
+                            alt="arrow-left"></div>
+                </div>
+                <div class="slider-btn flex justify-center">
+                    <a href="find-a-broker.html" class="flex text-nowrap align-center f-16 text-white btn-same">Work
+                        with us<i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SLIDER SECTION FINISHED -->
+    <!-- ACCIDENTS SECTION START -->
+    <section class="accidents-section flex align-center justify-center business-accidents">
+        <div class="container wow fadeInUp" data-wow-delay="0.3s">
+            <div class="accidents-inner flex flex-md-col align-center">
+                <div class="accidents-info w-50 w-md-100">
+                    <div class="accidents-heading">
+                        <h2 class="f-500 text-white">Accidents are unpredictable,<br> our support isn’t.</h2>
+                        <p class="f-16 font-2">Workers’ Compensation Insurance and Risk Management Solutions that work
+                            for you - simple, smooth, and stress-free.</p>
+                        <div class="accidents-btn flex">
+                            <a href="#" class="flex text-nowrap align-center f-16 text-white btn-same">Get covered <img
+                                    src="images/svg/arrow.svg" alt="arrow-img"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="accidents-info-img w-50 w-md-100">
+                    <div class="accidents-img">
+                        <img src="images/svg/business-accidents-img.svg" alt="accidents-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ACCIDENTS SECTION FINISHED -->
+    <!-- FOOTER SECTION START -->
+    <footer>
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-top flex flex-lg-col">
+                    <div class="footer-logo flex flex-col justify-between">
+                        <a href="index.html">
+                            <img src="images/svg/logo.svg" alt="logo">
+                        </a>
+                        <div class="footer-img">
+                            <img src="images/footer-img.png" alt="footer-img">
+                        </div>
+                    </div>
+                    <div class="footer-items-box flex">
+                        <div class="footer-item flex flex-col w-50">
+                            <h5 class="f-500 text-black">What We Offer</h5>
+                            <div class="footer-items-inner flex flex-col">
+                                <a href="index.html#workers-comp-insurance">Workers’ comp insurance</a>
+                                <a href="index.html#risk-solution">The Risk Solution™</a>
+                                <a href="index.html#claimsake">Claimsake™</a>
+                                <a href="index.html#who-we-cover">Who we cover</a>
+                                <a href="index.html#our-process">Our process</a>
+                            </div>
+                        </div>
+                        <div class="footer-item flex flex-col w-50">
+                            <h5 class="f-500 text-black">Why Highview</h5>
+                            <div class="footer-items-inner flex flex-col">
+                                <a href="meet-the-team.html">Meet the team</a>
+                                <a href="meet-the-team.html#treating-section">Our promise</a>
+                                <a href="meet-the-team.html#testimonials">What they say</a>
+                            </div>
+                        </div>
+                        <div class="footer-item flex flex-col w-50 footer-pt">
+                            <h5 class="f-500 text-black">For Brokers</h5>
+                            <div class="footer-items-inner flex flex-col">
+                                <a href="broker.html#how_we_work">How we work</a>
+                                <a href="broker.html#appetite_guide">The Appetite Guide</a>
+                                <a href="broker.html#broker_partner">Partner with us</a>
+                            </div>
+                        </div>
+                        <div class="footer-item flex flex-col w-50 footer-pt">
+                            <h5 class="f-500 text-black">For Business</h5>
+                            <div class="footer-items-inner flex flex-col">
+                                <a href="business.html">Working with us</a>
+                                <a href="business.html#did_you_know">Did you know</a>
+                                <a href="find-a-broker.html#find_broker">Find a broker</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-items-box-2 footer-items-box flex flex-col justify-between">
+                        <div class="footer-items-2-items flex flex-col">
+                            <div class="footer-item flex">
+                                <h5 class="f-500 text-black">Address:</h5>
+                                <div class="footer-items-inner flex flex-col">
+                                    <a target="_blank" href="https://maps.app.goo.gl/VF6ni4PAfPVfV1Ci7">1 Alpine Court,
+                                        Suite 102 Spring Valley, NY 10977</a>
+                                </div>
+                            </div>
+                            <div class="footer-item flex">
+                                <h5 class="f-500 text-black">Eamil:</h5>
+                                <div class="footer-items-inner flex flex-col">
+                                    <a href="mailto:info@highviewnational.com">info@highviewnational.com</a>
+                                </div>
+                            </div>
+                            <div class="footer-item flex">
+                                <h5 class="f-500 text-black">Phone:</h5>
+                                <div class="footer-items-inner flex flex-col">
+                                    <a href="tel:845-363-0500">845-363-0500</a>
+                                </div>
+                            </div>
+                            <div class="footer-item flex">
+                                <h5 class="f-500 text-black">Fax:</h5>
+                                <div class="footer-items-inner flex flex-col">
+                                    <a href="tel:845-363-0500">845-335-4667</a>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="https://www.linkedin.com/" class="footer-item flex align-center linkedin-box">
+                            <h5 class="f-500 text-black">Follow us on Linkedin</h5><img src="images/svg/linkedin.svg"
+                                alt="linkedin-img">
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-bootom flex flex-md-col align-center justify-between">
+                    <div class="privacy-div flex">
+                        <a href="#" class="text-black">Privacy Policy</a>
+                        <a href="#" class="text-black">Legal Disclaimer </a>
+                    </div>
+                    <div class="copyright-div">
+                        &#169; <span id="currentYear"></span> Highview National
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER SECTION FINISHED -->
+    <script type="text/javascript" src="script/wow.js"></script>
+    <script type="text/javascript" src="script/icon_fonts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script/script.js"></script>
+</body>
+
+</html>
